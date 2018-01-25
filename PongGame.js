@@ -39,7 +39,7 @@ var canvas;
 				leftPaddleY = mousePos.y-(PADDLE_HEIGHT/2);
 				//rightPaddleY = mousePos.y-(PADDLE_HEIGHT/2);
 			});
-		//Mousedown - UNSURE ON WHY handleMouseClick() with the parenthesis doesnt work.
+		//Mousedown - Reset score/game if at at game over screen aka showingWinScreen
 		canvas.addEventListener('mousedown', handleMouseClick);
 	};
 
