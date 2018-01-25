@@ -168,7 +168,7 @@ var canvas;
 				//speedY = 20: Ball will aim down 20;
 			} else if(ballX < 10){
 				player2Score++;
-				ballReset();	//If I keep the else if() theres a chance for a bug where the ball is bounced back and forth inbetween the PADDLE_WIDTH
+				ballReset();	//Theres a chance for a bug where the ball is bounced back and forth inbetween the PADDLE_WIDTH
 			}
 		}
 
